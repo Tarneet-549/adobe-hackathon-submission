@@ -1,0 +1,24 @@
+# Use an official lightweight Python image as a parent image
+# python:3.9-slim is a good choice for keeping the image size down.
+FROM python:3.9-slim-buster
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the requirements file into the container at /app
+# This is done first to leverage Docker's layer caching.
+# The dependencies will only be re-installed if this file changes.
+COPY requirements.txt .
+
+# Install any needed packages specified in requirements.txt
+# --no-cache-dir ensures that pip doesn't store the downloaded packages,
+# which helps keep the image size small.
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the application files into the container at /app
+# This includes the main script, the input JSON, and all the PDF documents.
+COPY . .
+
+# Define the command to run your application
+# This will be executed when the container starts.
+CMD ["python", "main.py"]

@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+        "processing_timestamp": "2025-07-28T19:00:34.977511"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Additional Tips:  Consider packing a travel-sized perfume or cologne to freshen up on",
+            "importance_rank": 1,
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Additional Tips:  Download maps and travel guides to your devices for oﬄine use.",
+            "importance_rank": 2,
+            "page_number": 5
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Budget-Friendly Hotels",
+            "importance_rank": 3,
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Nightlife and Entertainment",
+            "importance_rank": 4,
+            "page_number": 11
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Additional Tips:  Plan your wine tour route in advance and consider hiring a driver or",
+            "importance_rank": 5,
+            "page_number": 8
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "the go.",
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "Consider bringing a portable Wi-Fi hotspot for reliable internet access.",
+            "page_number": 5
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "The modern amenities and convenient location make it a great choice for budget-conscious travelers. The friendly staﬀ and aﬀordable rates make it a good option for travelers on a budget. The modern amenities and convenient location make it a great choice for budget-conscious travelers.",
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "The South of France oﬀers a vibrant nightlife scene, with options ranging from chic bars to lively nightclubs:",
+            "page_number": 11
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "joining a guided tour to avoid drinking and driving.",
+            "page_number": 8
+        }
+    ]
+}
